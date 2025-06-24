@@ -44,27 +44,27 @@ Output templates:
 
 If you want to perform search, use this template:
 
-{
+{{
 "action": "SEARCH",
 "reasoning": "<add your reasoning here>",
 "keywords": ["search query 1", "search query 2", ...]
-}
+}}
 
 If you can answer the QUESTION using CONTEXT, use this template:
 
-{
+{{
 "action": "ANSWER_CONTEXT",
 "answer": "<your answer>",
 "source": "CONTEXT"
-}
+}}
 
 If the context doesn't contain the answer, use your own knowledge to answer the question
 
-{
+{{
 "action": "ANSWER",
 "answer": "<your answer>",
 "source": "OWN_KNOWLEDGE"
-}
+}}
 
 <QUESTION>
 {question}
