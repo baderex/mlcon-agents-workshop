@@ -2,6 +2,10 @@
 import json
 
 from IPython.display import display, HTML
+<<<<<<< HEAD
+=======
+import markdown
+>>>>>>> 901d806175d5c5c11d485228b09cc1bf647c5087
 
 class Tools:
     def __init__(self):
@@ -121,4 +125,11 @@ class ChatAssistant:
                         has_messages = True
 
                 if has_messages:
+<<<<<<< HEAD
                     break
+=======
+                    break
+    
+
+
+>>>>>>> 901d806175d5c5c11d485228b09cc1bf647c5087
